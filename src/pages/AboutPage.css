@@ -1,0 +1,98 @@
+
+.about{
+    position: absolute;
+    top: 35px; left: 225px;
+    width: 1000px;
+    height: 750px;
+    background: #FFF0EC;
+    color: #534343;
+    border-radius: 10px;
+    padding: 150px 40px;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 40px;
+    padding-bottom: 125px;
+    margin-bottom: 70px;
+}
+
+.about h1{
+    margin-top: -80px;
+    padding-top: 10px;
+    padding-bottom: 16px;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.about h2{
+    margin-top: 25px;
+    padding-bottom: 12px;
+    font-size: 23px;
+    font-weight: 700;
+    text-align: left;
+    padding-right: 15px;
+}
+
+.about h3{
+    margin-top: 30px;
+    padding-bottom: 12px;
+    font-size: 23px;
+    font-weight: 700;
+    text-align: left;
+    padding-right: 15px;
+}
+
+.about h4{
+    margin-top: 30px;
+    padding-bottom: 12px;
+    font-size: 23px;
+    font-weight: 700;
+    text-align: left;
+    padding-right: 15px;
+}
+
+.about p2{
+    margin-top: 0px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    padding-right: 15px;
+}
+
+.about p3{
+    margin-top: 0px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    padding-right: 15px;
+}
+
+.about p4{
+    margin-top: 0px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.navigate-button{
+    left: 300px;
+    position: absolute;
+    width: 40%;
+    height: 42px;
+    background-color: #3c9c9c;
+    border: 3px none;
+    outline: 3px none;
+    border-radius: 100px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #f9f9f9;
+    font-weight: 725;
+    align-items: center;
+    margin: -15px 0 15px;
+    margin-top: 580px;
+    margin-bottom: -20px;
+    cursor: pointer;
+}

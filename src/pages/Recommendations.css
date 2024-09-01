@@ -1,0 +1,50 @@
+
+.recs{
+    position: relative;
+    top: 15px; left: 300px;
+    width: 850px;
+    height: 1100px;
+    background: #FFF0EC;
+    color: #534343;
+    border-radius: 10px;
+    padding: 150px 40px;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 125px;
+    margin-bottom: 70px;
+}
+
+.recs h1{
+    margin-top: -70px;
+    padding-bottom: 12px;
+    font-size: 29px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.recs h2{
+    padding-bottom: 12px;
+    font-size: 22px;
+    font-weight: 500;
+    font-style: italic;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.recs ul li {
+    font-size: 17.5px;
+    margin-top: 5px;
+    margin-left: 45px;
+    line-height: 20px;
+    margin-right: 30px;
+}
+
+.recs button {
+    position: absolute;
+    margin-top: 70px;
+    text-align: center;
+    left: 265px;
+    font-size: 20px;
+    cursor: pointer;
+}
