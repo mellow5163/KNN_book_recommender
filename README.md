@@ -19,14 +19,12 @@ To set up the Reach front end for this recommender, install the project locally:
 
       npm install
 
-To set up the Flask backend, move to the 'flask-server' directory and activate the virtual environment provided in this repository:
+To set up the Flask backend, first move to the 'flask-server' directory:
 
       cd flask-server
   
-      source venv/bin/activate
-  
 
-Alternatively, you can create a new virtual environment:
+Now, create and activate a new virtual environment:
 
       pip install virtualenv
   
@@ -34,15 +32,15 @@ Alternatively, you can create a new virtual environment:
   
       source venv/bin/activate
 
-Next, install the necessary requirements for the Flask back end:
+Next, install the necessary requirements for the back end:
 
       pip install -r requirements.txt
 
-To run the front end portion of this application, run the following command:
+To run the React front end for this application, run the following command:
 
       npm run start
 
-To run the backend portion, run the following command on a separate window:
+To run the Flask backend, run the following command on a separate window:
 
       python3 server.py
 
