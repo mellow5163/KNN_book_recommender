@@ -10,37 +10,37 @@ This project is a Flask web application with a React front end that utilizes mac
 ## Installation
 First, clone this repository to your local machine:
 
-      `git clone https://github.com/mellow5163/KNN_book_recommender.git`
+      git clone https://github.com/mellow5163/KNN_book_recommender.git
   
-      `cd KNN_book_recommender`
+      cd KNN_book_recommender
 
 
 To set up the Reach front end for this recommender, install the project locally:
 
-      `npm install`
+      npm install
 
 To set up the Flask backend, move to the 'flask-server' directory and activate the virtual environment provided in this repository:
 
-      `cd flask-server`
+      cd flask-server
   
-      `source venv/bin/activate`
+      source venv/bin/activate
   
 
 Alternatively, you can create a new virtual environment:
 
-      `pip install virtualenv`
+      pip install virtualenv
   
-      `python3 -m venv venv`
+      python3 -m venv venv
   
-      `source venv/bin/activate`
+      source venv/bin/activate
 
 Next, install the necessary requirements for the Flask back end:
 
-      `pip install -r requirements.txt`
+      pip install -r requirements.txt
 
 To run the front end portion of this application, run the following command:
 
-      `npm run start`
+      npm run start
 
 To run the backend portion, run the following command on a separate window:
 
