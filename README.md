@@ -44,7 +44,7 @@ To run the front end portion of this application, run the following command:
 
 To run the backend portion, run the following command on a separate window:
 
-      `python3 server.py`
+      python3 server.py
 
 ## Notes
 - Ensure that the titles entered into the recommender are correctly spelled
