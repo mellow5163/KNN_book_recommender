@@ -45,5 +45,5 @@ To run the Flask backend, run the following command on a separate window:
       python3 server.py
 
 ## Notes
-- Ensure that the titles entered into the recommender are correctly spelled
-- Because this project uses the goodbooks-10k dataset, all inputted titles must be found within this dataset
+- Ensure that the titles entered into the recommender are correctly spelled.
+- Because this project uses the goodbooks-10k dataset, all inputted titles must be found within this dataset.
