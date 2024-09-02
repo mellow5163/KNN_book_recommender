@@ -32,11 +32,11 @@ Now, create and activate a new virtual environment:
   
       source venv/bin/activate
 
-Next, install the necessary requirements for the back end:
+Next, install the necessary requirements for the backend:
 
       pip install -r requirements.txt
 
-To run the React front end for this application, run the following command:
+To run the React frontend for this application, run the following command:
 
       npm run start
 
