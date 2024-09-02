@@ -15,7 +15,7 @@ First, clone this repository to your local machine:
       cd KNN_book_recommender
 
 
-To set up the Reach front end for this recommender, install the project locally:
+To set up the Reach frontend for this recommender, install the project locally:
 
       npm install
 
