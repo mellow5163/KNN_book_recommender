@@ -65,19 +65,21 @@ def register_books():
 
     # initialize list of received titles
     received = []
+    original_received = []
 
     # initialize list of titles not found in the dataset
     unfound_titles = []
 
     for title in books_received:
-        title_found = False
         title = title.lower().strip()
 
         # search for title in database
         for book_info in books:
             if title == book_info[9].lower().strip():
-                title_found = True
+                original_title = title
+                original_received.append(original_title)
                 received.append(book_info[9])
+                title = book_info[9]
 
 
         # alternative fuzzy searching match
@@ -89,7 +91,11 @@ def register_books():
         #     received.append(match[0])
 
 
-        if not title_found:
+        #if not title_found:
+        #   unfound_titles.append(title)
+    
+    for title in books_received:
+        if title not in original_received:
             unfound_titles.append(title)
 
 
@@ -137,7 +143,5 @@ if __name__ == "__main__":
     port = int(os.environ.get('PORT', 4000))
     app.run(host='0.0.0.0', port=port)  
     
-
-
 
 
